@@ -1,12 +1,14 @@
 # 🗺️ Dev Roadmaps — Full Stack Sênior & Low-Level Programming
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04372ceb-90b1-4a23-b0eb-7ca8b8997fb7/deploy-status)](https://app.netlify.com/projects/luanpanno-roadmaps/deploys) [![Netlify Status](https://img.shields.io/badge/Claude_Code-555?logo=claude)](https://claude.ai/)
+
 ⚠️ **ATENÇÃO**: Este projeto foi totalmente vibecodado e gerado usando o Claude Code. Os roadmaps foram gerados baseados nas minhas experiências e conhecimentos prévios. Alguns tópicos foram adicionados apenas para revisão, e outros apenas por curiosidade. Faça bom uso :)
 
 <small>(toda a descrição abaixo também foi gerada com o Claude)</small>
 
 Dois roadmaps interativos e rastreáveis para desenvolvedores que querem ir além do básico: um para **Full Stack Pleno → Sênior** (Node.js, React, TypeScript) e outro para **Low-Level Programming** (C, Assembly, Sistemas Operacionais, Rust).
 
-**[→ Abrir o Roadmap](https://luanpanno.github.io/)** · Um arquivo HTML, zero dependências, funciona offline.
+**[→ Abrir o Roadmap](https://luanpanno-roadmaps.netlify.app/)** · Um arquivo HTML, zero dependências, funciona offline.
 
 ---
 
@@ -84,12 +86,12 @@ Para devs full stack que querem entender o que acontece por baixo do Node.js, do
 
 1. Faça fork deste repositório
 2. Ative GitHub Pages em **Settings → Pages → Source: main branch**
-3. Acesse em `https://seuusuario.github.io/dev-roadmaps/`
+3. Acesse em `https://seuusuario.github.io/roadmaps/`
 
 ### Opção 2 — Local
 
 ```bash
-git clone https://github.com/seuusuario/roadmaps.git
+git clone https://github.com/luanpanno/roadmaps.git
 open roadmaps/index.html     # macOS
 xdg-open roadmaps/index.html # Linux
 start roadmaps/index.html    # Windows
