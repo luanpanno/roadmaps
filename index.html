@@ -15,6 +15,9 @@ body{background:var(--bg);color:var(--text);font-family:'Epilogue',sans-serif;mi
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(hsla(var(--accent),50%,50%,.015) 1px,transparent 1px),linear-gradient(90deg,hsla(var(--accent),50%,50%,.015) 1px,transparent 1px);background-size:52px 52px;pointer-events:none;z-index:0}
 
 /* ── TAB BAR ── */
+
+.collapse-btn{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.5px;padding:5px 12px;border-radius:5px;border:1px solid var(--border2);background:transparent;color:var(--text3);cursor:pointer;transition:all .2s;white-space:nowrap;margin-left:10px;margin-right:10px}
+.collapse-btn:hover{color:var(--white);border-color:var(--c-border);background:var(--c-surface)}
 .tab-bar{position:sticky;top:0;z-index:200;background:rgba(6,8,16,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;gap:0;height:48px}
 .tab-btn{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;letter-spacing:.5px;color:var(--text3);background:none;border:none;cursor:pointer;padding:14px 20px;position:relative;transition:color .25s}
 .tab-btn:hover{color:var(--text2)}
@@ -216,6 +219,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text3
   <div class="tab-sep"></div>
   <button class="tab-btn" onclick="switchTab('lowlevel')">🔧 Low-Level</button>
   <div class="tab-spacer"></div>
+  <button class="collapse-btn" onclick="collapseAll()" title="Recolher todas as seções">▲ Recolher tudo</button>
   <div class="tab-progress">
     <div class="tab-prog-ring">
       <svg viewBox="0 0 28 28"><circle class="bg" cx="14" cy="14" r="11"/><circle class="fg" id="progRing" cx="14" cy="14" r="11" stroke-dasharray="69.12" stroke-dashoffset="69.12"/></svg>
@@ -239,6 +243,13 @@ let activeTab='webdev';
 const state={webdev:{},lowlevel:{}};
 
 function tp(el){el.closest('.phase').classList.toggle('open')}
+function collapseAll(){
+var tab=activeTab||'webdev';
+var el=document.getElementById('tab-'+tab);
+if(!el)return;
+el.querySelectorAll('.phase.open').forEach(function(p){p.classList.remove('open');});
+persistExpand();
+}
 function switchTab(t){activeTab=t;try{localStorage.setItem('rm_active_tab',t);}catch(e){}document.body.dataset.tab=t;document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',i===(t==='webdev'?0:1)));document.querySelectorAll('.tab-content').forEach(c=>c.classList.toggle('active',c.id==='tab-'+t));updateGlobal();}
 
 function totalItems(t){const d=TABS[t];return d.phases.reduce((s,p)=>s+p.topics.reduce((ss,tp)=>ss+tp.checks.length,0)+(p.project?.dels?.length||0),0);}
