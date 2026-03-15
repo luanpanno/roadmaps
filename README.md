@@ -1,4 +1,4 @@
-# 🗺️ Dev Roadmaps — Full Stack Sênior & Low-Level Programming
+# 🗺️ Dev Roadmaps — Full Stack Sênior, Low-Level & AI para Devs
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04372ceb-90b1-4a23-b0eb-7ca8b8997fb7/deploy-status)](https://app.netlify.com/projects/luanpanno-roadmaps/deploys) [![Netlify Status](https://img.shields.io/badge/Claude_Code-555?logo=claude)](https://claude.ai/)
 
@@ -6,7 +6,7 @@
 
 <small>(toda a descrição abaixo também foi gerada com o Claude)</small>
 
-Dois roadmaps interativos e rastreáveis para desenvolvedores que querem ir além do básico: um para **Full Stack Pleno → Sênior** (Node.js, React, TypeScript) e outro para **Low-Level Programming** (C, Assembly, Sistemas Operacionais, Rust).
+Três roadmaps interativos e rastreáveis para desenvolvedores que querem ir além do básico: **Full Stack Pleno → Sênior** (Node.js, React, TypeScript), **Low-Level Programming** (C, Assembly, Sistemas Operacionais, Rust) e **AI para Desenvolvedores** (Prompt Engineering, RAG, Agents, LLMs em produção).
 
 **[→ Abrir o Roadmap](https://luanpanno-roadmaps.netlify.app/)** · Um arquivo HTML, zero dependências, funciona offline.
 
@@ -26,17 +26,17 @@ A maioria dos roadmaps na internet é uma lista de tecnologias sem contexto. Est
 
 ## 📊 Visão Geral
 
-|                         | Full Stack Sênior | Low-Level Programming |
-| ----------------------- | ----------------- | --------------------- |
-| **Fases**               | 15                | 10                    |
-| **Tópicos**             | 73                | 64                    |
-| **Itens rastreáveis**   | 562               | 387                   |
-| **Projetos**            | 15                | 10                    |
-| **Livros recomendados** | 15                | 8                     |
-| **Estimativa**          | ~10 meses         | ~9 meses              |
-| **Dedicação**           | 1–3h/dia          | 1–3h/dia              |
+|                         | Full Stack Sênior | Low-Level Programming | AI para Devs |
+| ----------------------- | ----------------- | --------------------- | ------------ |
+| **Fases**               | 15                | 10                    | 12           |
+| **Tópicos**             | 73                | 64                    | 34           |
+| **Itens rastreáveis**   | 562               | 387                   | 261          |
+| **Projetos**            | 15                | 10                    | 12           |
+| **Livros recomendados** | 15                | 8                     | 4            |
+| **Estimativa**          | ~10 meses         | ~9 meses              | ~8 meses     |
+| **Dedicação**           | 1–3h/dia          | 1–3h/dia              | 1–3h/dia     |
 
-**Total: 949 itens rastreáveis, 25 projetos, 23 livros.**
+**Total: 1.210 itens rastreáveis, 37 projetos, 27 livros.**
 
 ---
 
@@ -83,6 +83,27 @@ Para devs full stack que querem entender o que acontece por baixo do Node.js, do
 
 ---
 
+## 🤖 AI para Desenvolvedores
+
+Para devs que querem usar, integrar e construir produtos com inteligência artificial. Não é sobre virar pesquisador de ML — é sobre usar AI como ferramenta e construir produtos inteligentes.
+
+| Fase | Tema                                      | Duração     |
+| ---- | ----------------------------------------- | ----------- |
+| 01   | Fundamentos & Landscape de Modelos        | 1–2 semanas |
+| 02   | Prompt Engineering Avançado               | 2–3 semanas |
+| 03   | APIs, SDKs, Streaming & Conversations     | 2–3 semanas |
+| 04   | Function Calling, Tool Use & MCP          | 2–3 semanas |
+| 05   | RAG, Semantic Search & Extração           | 3–4 semanas |
+| 06   | AI Agents & Orquestração                  | 3–4 semanas |
+| 07   | AI Security & Guardrails                  | 2–3 semanas |
+| 08   | Geração de Imagens & Mídia Visual         | 2 semanas   |
+| 09   | Multimodal: Vision, Áudio & Vídeo         | 2 semanas   |
+| 10   | Modelos Locais, Open Source & Fine-tuning | 3–4 semanas |
+| 11   | Automação, Workflows & AI Browsers        | 1–2 semanas |
+| 12   | AI em Produção: Eval, UX & Escala         | 3–4 semanas |
+
+---
+
 ## 🧰 Como Usar
 
 ### Opção 1 — GitHub Pages (recomendado)
@@ -125,6 +146,13 @@ start roadmaps/index.html    # Windows
 - Quer complementar seu conhecimento web com fundamentos de sistemas
 - Está disposto a investir tempo em profundidade, não em hype
 
+**AI para Devs** é para você se:
+
+- Já usa AI no dia a dia (Claude, Copilot, ChatGPT) e quer usar melhor
+- Quer construir produtos com LLMs: RAG, agents, chatbots, automações
+- Quer entender prompt engineering de verdade, não só "escrever pedidos"
+- Quer saber colocar AI em produção com segurança, eval e escala
+
 ---
 
 ## 📖 Livros Recomendados
@@ -136,6 +164,10 @@ Prompt Engineering Guide (DAIR.AI) · Clean Architecture (Martin) · Implementin
 ### Low-Level
 
 The C Programming Language (K&R) · CS:APP (Bryant & O'Hallaron) · The Linux Programming Interface (Kerrisk) · OSTEP (Arpaci-Dusseau) · Effective Modern C++ (Meyers) · Programming Rust (Blandy & Orendorff) · The Rust Book (Klabnik & Nichols) · Crafting Interpreters (Nystrom)
+
+### AI para Devs
+
+Prompt Engineering Guide (DAIR.AI) · AI Engineering (Chip Huyen) · Building LLM Apps (Valentina Alto) · What Is ChatGPT Doing (Stephen Wolfram)
 
 ---
 
