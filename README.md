@@ -1,4 +1,4 @@
-# 🗺️ Dev Roadmaps — Full Stack Sênior, Low-Level & AI para Devs
+# 🗺️ Dev Roadmaps — Full Stack Sênior, Low-Level, AI para Devs & UI/UX
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04372ceb-90b1-4a23-b0eb-7ca8b8997fb7/deploy-status)](https://app.netlify.com/projects/luanpanno-roadmaps/deploys) [![Netlify Status](https://img.shields.io/badge/Claude_Code-555?logo=claude)](https://claude.ai/)
 
@@ -6,7 +6,7 @@
 
 <small>(toda a descrição abaixo também foi gerada com o Claude)</small>
 
-Três roadmaps interativos e rastreáveis para desenvolvedores que querem ir além do básico: **Full Stack Pleno → Sênior** (Node.js, React, TypeScript), **Low-Level Programming** (C, Assembly, Sistemas Operacionais, Rust) e **AI para Desenvolvedores** (Prompt Engineering, RAG, Agents, LLMs em produção).
+Quatro roadmaps interativos e rastreáveis para desenvolvedores e makers que querem ir além do básico: **Full Stack Pleno → Sênior** (Node.js, React, TypeScript), **Low-Level Programming** (C, Assembly, Sistemas Operacionais, Rust), **AI para Desenvolvedores** (Prompt Engineering, RAG, Agents, LLMs em produção) e **UI/UX Design** (produto digital, research, visual design, acessibilidade, design systems, service design, DesignOps e estratégia).
 
 **[→ Abrir o Roadmap](https://luanpanno-roadmaps.netlify.app/)** · Um arquivo HTML, zero dependências, funciona offline.
 
@@ -26,17 +26,17 @@ A maioria dos roadmaps na internet é uma lista de tecnologias sem contexto. Est
 
 ## 📊 Visão Geral
 
-|                         | Full Stack Sênior | Low-Level Programming | AI para Devs |
-| ----------------------- | ----------------- | --------------------- | ------------ |
-| **Fases**               | 15                | 10                    | 12           |
-| **Tópicos**             | 73                | 64                    | 34           |
-| **Itens rastreáveis**   | 562               | 387                   | 261          |
-| **Projetos**            | 15                | 10                    | 12           |
-| **Livros recomendados** | 15                | 8                     | 4            |
-| **Estimativa**          | ~10 meses         | ~9 meses              | ~8 meses     |
-| **Dedicação**           | 1–3h/dia          | 1–3h/dia              | 1–3h/dia     |
+|                         | Full Stack Sênior | Low-Level Programming | AI para Devs | UI/UX Design |
+| ----------------------- | ----------------- | --------------------- | ------------ | ------------ |
+| **Fases**               | 15                | 10                    | 12           | 18           |
+| **Tópicos**             | 73                | 64                    | 34           | 72           |
+| **Itens rastreáveis**   | 562               | 387                   | 261          | 481          |
+| **Projetos**            | 15                | 10                    | 12           | 18           |
+| **Livros recomendados** | 15                | 8                     | 4            | 12           |
+| **Estimativa**          | ~10 meses         | ~9 meses              | ~8 meses     | ~12 meses    |
+| **Dedicação**           | 1–3h/dia          | 1–3h/dia              | 1–3h/dia     | 1–3h/dia     |
 
-**Total: 1.210 itens rastreáveis, 37 projetos, 27 livros.**
+**Total: 1.691 itens rastreáveis, 55 projetos, 39 livros.**
 
 ---
 
@@ -104,6 +104,33 @@ Para devs que querem usar, integrar e construir produtos com inteligência artif
 
 ---
 
+## 🎨 UI/UX Design — Basics → Badass
+
+Para devs e makers que querem desenhar produtos digitais com craft real: entender usuários, estruturar fluxos, criar interfaces bonitas e usáveis, trabalhar com acessibilidade, montar design systems, pensar em serviços ponta a ponta e defender decisões com evidência.
+
+| Fase | Tema                                                 | Duração     |
+| ---- | ---------------------------------------------------- | ----------- |
+| 01   | Fundamentos de UI/UX & Product Thinking              | 1–2 semanas |
+| 02   | Visual Design (hierarquia, cor, tipografia, layout)  | 2–3 semanas |
+| 03   | Figma Profissional (componentes, variables, protos)  | 2–3 semanas |
+| 04   | UX Research & Usability Testing                      | 3–4 semanas |
+| 05   | Information Architecture, Navigation & UX Writing    | 2–3 semanas |
+| 06   | Interaction Design, Fluxos, Forms & Estados          | 3–4 semanas |
+| 07   | Acessibilidade & Inclusive Design (WCAG 2.2)         | 2–3 semanas |
+| 08   | Design Systems, Tokens, Componentes & Governança     | 4–5 semanas |
+| 09   | Platform Design (Web, iOS, Android, Desktop)         | 2–3 semanas |
+| 10   | Localization & Global UX                             | 2 semanas   |
+| 11   | Product UX, Métricas, Experimentação & Growth        | 3–4 semanas |
+| 12   | Service Design & Journey Ecosystems                  | 3–4 semanas |
+| 13   | Advanced UX: Enterprise, Dados, Trust & AI UX        | 3–4 semanas |
+| 14   | Design Ethics, Privacy & Responsible UX              | 2–3 semanas |
+| 15   | Motion, Brand Experience & Polish QA                 | 2–3 semanas |
+| 16   | Design Leadership, Crítica, Facilitação & Decisão    | 2–3 semanas |
+| 17   | DesignOps & ResearchOps                              | 2–3 semanas |
+| 18   | Portfolio, Career & Mastery                          | 3–4 semanas |
+
+---
+
 ## 🧰 Como Usar
 
 ### Opção 1 — GitHub Pages (recomendado)
@@ -153,6 +180,13 @@ start roadmaps/index.html    # Windows
 - Quer entender prompt engineering de verdade, não só "escrever pedidos"
 - Quer saber colocar AI em produção com segurança, eval e escala
 
+**UI/UX Design** é para você se:
+
+- Já cria interfaces ou implementa frontend e quer tomar decisões visuais melhores
+- Quer entender research, fluxos, usabilidade, acessibilidade e design systems
+- Quer fazer Figma virar sistema, não só mockup bonito
+- Quer defender decisões de produto com evidência, métricas e trade-offs
+
 ---
 
 ## 📖 Livros Recomendados
@@ -168,6 +202,10 @@ The C Programming Language (K&R) · CS:APP (Bryant & O'Hallaron) · The Linux Pr
 ### AI para Devs
 
 Prompt Engineering Guide (DAIR.AI) · AI Engineering (Chip Huyen) · Building LLM Apps (Valentina Alto) · What Is ChatGPT Doing (Stephen Wolfram)
+
+### UI/UX
+
+The Design of Everyday Things (Norman) · Refactoring UI (Wathan & Schoger) · Designing Interfaces (Tidwell) · The Mom Test (Fitzpatrick) · Continuous Discovery Habits (Torres) · Information Architecture (Rosenfeld, Morville & Arango) · Form Design Patterns (Silver) · Storytelling with Data (Knaflic) · This is Service Design Doing (Stickdorn et al.) · Articulating Design Decisions (Greever) · DesignOps Handbook (DesignBetter) · Solving Product Design Exercises (Dashinsky)
 
 ---
 
